@@ -1,0 +1,5 @@
+•	Languages: 	              Python, C, C++, Java  
+•	Microservices:          Java Spring Boot, REST APIs 
+•	Cloud and DevOps:  AWS, Docker, Kubernetes, Apache CloudStack 
+•	Tools/Platforms:       Git, GitHub, Power BI, Excel, Linux 
+•	Database:                  MySQL, PostgreSQl

@@ -1,0 +1,3 @@
+git hub link: https://github.com/anujbis/Docker-1.o
+description: Docker fundamentals including container creation, execution, and management using Docker Desktop.
+Concepts of volumes, bind mounts, networking, Docker Compose, image layer caching, and multi-stage builds for efficient application deployment.

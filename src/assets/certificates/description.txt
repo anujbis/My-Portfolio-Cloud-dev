@@ -1,0 +1,15 @@
+1. Data Structures and Algorithms (LPU - iAmNeo)
+Fundamentals of data structures and algorithms including arrays, recursion, and problem-solving techniques.
+Concepts of time complexity, optimization, and structured programming approaches.
+
+2. Java Programming (LPU - iAmNeo)
+Core Java concepts including object-oriented programming, classes, and exception handling.
+Understanding of application logic, control structures, and basic software development practices.
+
+3. Mastering in C: Basic to Beyond (CSE Pathshala)
+Comprehensive coverage of C programming including syntax, pointers, and memory management.
+Concepts of problem-solving, structured programming, and foundational algorithm design.
+
+4. Data Structures and Algorithms using C++ (LPU - CPE)
+Core data structures such as arrays, linked lists, stacks, and queues using C++.
+Understanding of algorithm design, problem-solving techniques, and performance analysis.

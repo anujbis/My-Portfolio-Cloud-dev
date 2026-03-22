@@ -1,0 +1,2 @@
+git hub link:https://github.com/anujbis/Voting-app
+description:The Example Voting App is a microservices-based application that demonstrates how different services communicate in a distributed system. It uses technologies like Docker containers and Kubernetes to deploy and manage components such as frontend, backend, database, and worker services.

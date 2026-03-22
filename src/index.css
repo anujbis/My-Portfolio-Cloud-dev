@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #00e5ff;
+  --color-secondary: #b026ff;
+  --color-accent: #ff0055;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --radius-2xl: 1rem;
+}
+
+@layer base {
+  :root {
+    --background: #050505;
+    --foreground: #e2e8f0;
+    --primary: #00e5ff;
+    --primary-foreground: #000000;
+    --card: rgba(10, 10, 15, 0.7);
+    --card-foreground: #f8fafc;
+  }
+
+  body {
+    @apply bg-[var(--background)] text-[var(--foreground)] antialiased min-h-screen overflow-x-hidden selection:bg-primary/20 selection:text-primary;
+    background: radial-gradient(circle at center, #111 0%, #000 100%);
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-black/40 backdrop-blur-md border border-white/10;
+    box-shadow: 0 8px 32px 0 rgba(0, 229, 255, 0.05);
+  }
+
+  .glass-card {
+    @apply bg-slate-900/60 backdrop-blur-xl border border-white/10;
+    box-shadow: 0 12px 40px -12px rgba(0, 0, 0, 0.5);
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500;
+  }
+
+  .glow-hover {
+    @apply transition-all duration-500 hover:border-cyan-400;
+  }
+
+  .glow-hover:hover {
+    box-shadow: 0 0 30px -5px var(--primary);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 229, 255, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 229, 255, 0.5);
+}

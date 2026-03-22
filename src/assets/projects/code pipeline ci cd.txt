@@ -1,0 +1,2 @@
+git hub link:https://github.com/anujbis/Codepipeline-CI-CD
+description:Amazon Web Services CodePipeline is a CI/CD service that automates the build, test, and deployment of applications. It integrates with tools like CodeBuild, CodeDeploy, and GitHub to create seamless deployment workflows. CodePipeline helps deliver updates faster by enabling continuous integration and continuous delivery with minimal manual effort.
